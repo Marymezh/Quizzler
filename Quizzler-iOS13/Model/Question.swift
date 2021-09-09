@@ -10,10 +10,14 @@ import Foundation
 
 struct Question {
     var text: String
-    var answer: String
+    var answer: [String]
     
-    init(q: String, a: String) {
+    // task3: one more parametr - array of answers - is added 
+    var rightAnswer: String
+    
+    init(q: String, a: [String], correctAnswer: String) {
         text = q
         answer = a
+        rightAnswer = correctAnswer
     }
 }
