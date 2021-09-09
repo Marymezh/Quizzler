@@ -15,6 +15,7 @@
 		AD4BDE5622D878BC005BA4CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD4BDE5422D878BC005BA4CC /* LaunchScreen.storyboard */; };
 		AD7631B622F9851900C6E71B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD7631B522F9851900C6E71B /* README.md */; };
 		CEAD817226E4C9B900213B2E /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD817126E4C9B900213B2E /* Question.swift */; };
+		CEAD817A26E6028300213B2E /* Quiz brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAD817926E6028300213B2E /* Quiz brain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		AD4BDE5722D878BC005BA4CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD7631B522F9851900C6E71B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CEAD817126E4C9B900213B2E /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		CEAD817926E6028300213B2E /* Quiz brain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quiz brain.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +65,9 @@
 			children = (
 				AD4BDE4922D878BA005BA4CC /* AppDelegate.swift */,
 				AD4BDE4B22D878BA005BA4CC /* SceneDelegate.swift */,
+				CEAD817426E600DC00213B2E /* Model */,
 				CEAD817626E600FC00213B2E /* View */,
 				CEAD817726E6010800213B2E /* Controller */,
-				CEAD817426E600DC00213B2E /* Model */,
 				AD4BDE5222D878BC005BA4CC /* Assets.xcassets */,
 				AD4BDE5422D878BC005BA4CC /* LaunchScreen.storyboard */,
 				AD4BDE5722D878BC005BA4CC /* Info.plist */,
@@ -77,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				CEAD817126E4C9B900213B2E /* Question.swift */,
+				CEAD817926E6028300213B2E /* Quiz brain.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			files = (
 				AD4BDE4E22D878BA005BA4CC /* ViewController.swift in Sources */,
 				CEAD817226E4C9B900213B2E /* Question.swift in Sources */,
+				CEAD817A26E6028300213B2E /* Quiz brain.swift in Sources */,
 				AD4BDE4A22D878BA005BA4CC /* AppDelegate.swift in Sources */,
 				AD4BDE4C22D878BA005BA4CC /* SceneDelegate.swift in Sources */,
 			);
